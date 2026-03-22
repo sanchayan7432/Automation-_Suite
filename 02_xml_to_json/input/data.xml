@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <id>1</id>
+        <name>Alice Johnson</name>
+        <username>alicej</username>
+        <email>alice.johnson@example.com</email>
+        <phone>+1-202-555-0147</phone>
+
+        <address>
+            <street>123 Maple Street</street>
+            <city>Springfield</city>
+            <state>IL</state>
+            <zip>62704</zip>
+        </address>
+
+        <isActive>true</isActive>
+
+        <roles>
+            <role>admin</role>
+            <role>editor</role>
+        </roles>
+
+        <orders>
+            <order>
+                <id>5</id>
+                <price>70</price>
+            </order>
+            <order>
+                <id>8</id>
+                <price>80</price>
+            </order>
+        </orders>
+
+        <createdAt>2024-05-12T10:15:30Z</createdAt>
+    </user>
+
+    <user>
+        <id>2</id>
+        <name>Bob Smith</name>
+        <username>bobsmith</username>
+        <email>bob.smith@example.com</email>
+        <phone>+1-202-555-0199</phone>
+
+        <isActive>false</isActive>
+
+        <roles>
+            <role>viewer</role>
+        </roles>
+
+        <createdAt>2024-06-01T14:22:10Z</createdAt>
+    </user>
+
+</users>

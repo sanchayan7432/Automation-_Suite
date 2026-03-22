@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "name": "Sabir Hussain",
+  "username": "sabirhussainbalal",
+  "email": "sabirhussain@example.com",
+  "phone": "+92-000-000-000",
+  "address": {
+    "street": "Irrigation Colony",
+    "city": "Hyderabad",
+    "zip": "71000"
+  },
+  "roles": ["Coder", "Loser"],
+  "isActive": true,
+  "born": "21-May"
+}

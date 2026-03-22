@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "username": "alicej",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-202-555-0147",
+    "address": {
+      "street": "123 Maple Street",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62704"
+    },
+    "isActive": true,
+    "roles": ["admin", "editor"],
+    "orders": [
+      { "id": 5, "price": 70 },
+      { "id": 8, "price": 80 }
+    ],
+    "createdAt": "2024-05-12T10:15:30Z"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "username": "bobsmith",
+    "email": "bob.smith@example.com",
+    "phone": "+1-202-555-0199",
+    "address": {
+      "street": "456 Oak Avenue",
+      "city": "Riverside",
+      "state": "CA",
+      "zip": "92501"
+    },
+    "isActive": false,
+    "roles": ["viewer"],
+    "createdAt": "2024-06-01T14:22:10Z"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Davis",
+    "username": "charlied",
+    "email": "charlie.davis@example.com",
+    "phone": "+1-202-555-0175",
+    "address": {
+      "street": "789 Pine Road",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "73301"
+    },
+    "isActive": true,
+    "roles": ["editor"],
+    "orders": [
+      { "id": 1, "price": 10 },
+      { "id": 2, "price": 20 }
+    ],
+    "createdAt": "2024-07-20T08:45:00Z"
+  }
+]

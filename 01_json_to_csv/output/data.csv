@@ -1,0 +1,4 @@
+id,name,username,email,phone,address.street,address.city,address.state,address.zip,isActive,roles.admin,roles.editor,orders.id,orders.price,createdAt,roles.viewer
+1,Alice Johnson,alicej,alice.johnson@example.com,+1-202-555-0147,123 Maple Street,Springfield,IL,62704,True,1.0,1.0,8.0,80.0,2024-05-12T10:15:30Z,0.0
+2,Bob Smith,bobsmith,bob.smith@example.com,+1-202-555-0199,456 Oak Avenue,Riverside,CA,92501,False,0.0,0.0,0.0,0.0,2024-06-01T14:22:10Z,1.0
+3,Charlie Davis,charlied,charlie.davis@example.com,+1-202-555-0175,789 Pine Road,Austin,TX,73301,True,0.0,1.0,2.0,20.0,2024-07-20T08:45:00Z,0.0
