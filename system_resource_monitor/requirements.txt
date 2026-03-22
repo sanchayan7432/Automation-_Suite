@@ -1,0 +1,6 @@
+psutil
+GPUtil
+tabulate
+streamlit
+plotly
+pandas
