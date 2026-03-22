@@ -1,0 +1,59 @@
+/* ===== GLOBAL ===== */
+QMainWindow {
+    background-color: #0f1117;
+    font-family: 'Segoe UI';
+}
+
+/* ===== LABEL ===== */
+QLabel {
+    color: #e6edf3;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* ===== SCROLL ===== */
+QScrollArea {
+    border: none;
+}
+
+/* ===== BUTTON (MERGED + GLASS EFFECT) ===== */
+QPushButton {
+    background-color: rgba(22, 27, 34, 0.85);   /* glass effect */
+    color: #c9d1d9;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #30363d;
+    margin: 6px 10px;
+}
+
+/* ===== HOVER EFFECT ===== */
+QPushButton:hover {
+    background-color: rgba(33, 38, 45, 0.95);
+    border: 1px solid #58a6ff;
+    color: #ffffff;
+}
+
+/* ===== CLICK EFFECT ===== */
+QPushButton:pressed {
+    background-color: #1f6feb;
+    color: #ffffff;
+}
+
+/* ===== SCROLLBAR ===== */
+QScrollBar:vertical {
+    background: #0f1117;
+    width: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #30363d;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #58a6ff;
+}
